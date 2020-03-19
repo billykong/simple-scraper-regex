@@ -22,3 +22,7 @@ OUTPUT_FILE=/results/output-container.txt
 
 You can also run it in a terminal:
 `$ python scraper.py 'https://www.bing.com/covid/data' '\{[^\{]*hong[^\}]*\}' ./output.txt`
+
+## TODO
+- [ ] Add unit tests
+- [ ] Setup GitHub Action to push Docker image to DockerHub upon push to master
